@@ -1,0 +1,32 @@
+{
+  "name": "mc-xlsx-loader",
+  "version": "0.0.1",
+  "description": "MailChimp Loader",
+  "main": "index.js",
+  "scripts": {
+    "test": "make test"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git@github.com:bglase/mc-xlsx-loader.git"
+  },
+  "keywords": [],
+  "author": "Bill Glase <bglase@icloud.com> (http://wwww.icloud.com/)",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/bglase/mc-xlsx-loader/issues"
+  },
+  "homepage": "https://github.com/bglase/mc-xlsx-loader",
+  "dependencies": {
+    "bluebird": "^3.3.5",
+    "chalk": "^1.1.3",
+    "minimist": "^1.2.0",
+    "node-rest-client": "^1.8.0",
+    "underscore": "^1.8.3",
+    "xlsx": "^0.8.0"
+  },
+  "devDependencies": {
+    "jshint": "^2.8.0",
+    "chai": "^3.2.0"
+  }
+}
